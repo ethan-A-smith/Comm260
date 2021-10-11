@@ -1,0 +1,40 @@
+h1 {
+	font-size: 48px;	
+}
+.post-heading {
+	color: #006633;
+	font-size: 1.8em;	
+}
+#main-nav	{
+	font-size: 1.3em;
+	
+
+}
+
+a:link{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: underline;
+}
+a:focus{
+	text-decoration: underline;
+}
+a:active{
+	text-decoration: underline;
+}
+
+blockquote	{
+	color: #33ccff;
+	font-size: 1.3em;
+	font-style: italic;
+}
+
+.hero-image{
+	float: left;
+	width: 640px;
+}
+
+.article-image{
+	clear: float;
+}
