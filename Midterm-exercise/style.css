@@ -1,0 +1,24 @@
+.column{
+    float: left;
+    width: 25%;
+    padding: 5px;
+}
+.row::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+blockquote::before{
+content: open-quote;
+}
+blockquote::after{
+content: close-quote;
+}
+blockquote{
+    quotes: "“" "”";
+    background-color: cadetblue;
+    max-width: 20em;
+    margin: 1em;
+    font:bold;
+    font-size: x-large;
+}
